@@ -15,12 +15,12 @@ stackset_stage_name='stackset'
 
 install_common_pip_packages () {
     # install pip packages
-    pip install --quiet --upgrade pip==21.0.1
+    pip install --quiet --upgrade pip==23.0.1
     pip install --quiet --upgrade setuptools
     pip install --quiet --upgrade virtualenv==20.4.2
-    pip install --quiet --upgrade PyYAML==5.3.1
+    pip install --quiet --upgrade PyYAML==5.4.1
     pip install --quiet --upgrade yorm==1.6.2
-    pip install --quiet --upgrade jinja2==2.11.3
+    pip install --quiet --upgrade jinja2==3.1.2
     pip install --quiet --upgrade requests==2.25.1
 }
 
